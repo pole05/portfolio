@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/call"
+        android:showAsAction="always"
+        android:title="전화 걸기"/>
+    
+    <item
+        android:id="@+id/more"
+        android:showAsAction="always"
+        android:title="더 자세한 정보"/>
+    
+<!--     <item -->
+<!--         android:id="@+id/kakao" -->
+<!--         android:showAsAction="always" -->
+<!--         android:title="카카오톡 공유"/> -->
+    
+
+</menu>
