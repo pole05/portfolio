@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.study.FirstActivity"
+    android:background="#FFFFFF"
+    android:id="@+id/First_l" >
+    
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+	        android:id="@+id/preSub"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="그 점수에 잠이 오냐"
+	        android:textSize="20sp"
+	        android:textColor="#000000" />
+        
+        
+	    <TextView
+	        android:id="@+id/Sub"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="우리 공부하자"
+	        android:textSize="40sp"
+	        android:layout_marginTop="10dp"
+	        android:textColor="#000000" />    
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="20dp"
+        	android:layout_marginBottom="40dp"
+        	android:orientation="horizontal" >
+        	
+		        <TextView
+		            android:id="@+id/D_day"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="10dp"
+		            android:text="D-"
+		            android:textColor="#000000"
+		            android:textSize="40sp" />
+		
+		        <TextView
+		            android:id="@+id/D_date"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="365"
+		            android:textColor="#000000"
+		            android:textSize="40sp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>
