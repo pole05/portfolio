@@ -1,0 +1,25 @@
+		/* menuWrite, menuEdit 스타일 */
+		
+.main {
+	border:0;
+}
+
+.input1 {
+	border:1px solid;
+	color: gray;
+	font-size:12px;
+}
+
+.input0 {
+	border:0px solid;
+	color: gray;
+}
+
+.btn1 {
+	border:1px solid;
+	background-color: transparent;
+}
+
+.cell1 {
+	background-color: #D9F2E9;
+}

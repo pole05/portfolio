@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/*--------body 전체-----------*/
+html {
+	min-height: 100% !important;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	/* 	position: absolute; */
+	/* 	top: 0; */
+	/* 	left: 0; */
+	/* 	background-color: #e1e7e7; */
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	/* 	text-align: center; */
+	/* 	min-width: 800px; */
+	/* 	min-height: 800px; */
+	/* 	overflow-y: auto; */
+}
+
+table {
+	border-spacing: 0px;
+	border-style: none;
+	padding: 0px;
+}
+
+td {
+	border-spacing: 0px;
+	border-style: none;
+	padding: 0px;
+}
+
+.td1 {
+	width: 40%;
+	text-align: center;
+	color: gray;
+}
+
+.maintb {
+	width: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: white;
+	border: 1px solid black;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* img#team1{width: 10%; position: relative; display: inline-block; bottom: -100px; left: 0;} */

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>happyGwangju</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+	<servlet>
+  	<servlet-name>AutoSubmit</servlet-name>
+  	<servlet-class>com.jsp.controller.AutoSubmitController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AutoSubmit</servlet-name>
+  	<url-pattern>/AutoSubmit.do</url-pattern>
+  </servlet-mapping>
+
+	<servlet>
+  	<servlet-name>Login</servlet-name>
+  	<servlet-class>com.jsp.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/login.do</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+  	<servlet-name>Main</servlet-name>
+  	<servlet-class>com.jsp.controller.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Main</servlet-name>
+  	<url-pattern>/Main.do</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+  	<servlet-name>Main2</servlet-name>
+  	<servlet-class>com.jsp.controller.mobile.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Main2</servlet-name>
+  	<url-pattern>/mobile/Main.do</url-pattern>
+  </servlet-mapping>
+      
+	<servlet>
+  	<servlet-name>MenuList2</servlet-name>
+  	<servlet-class>com.jsp.controller.mobile.MenuListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MenuList2</servlet-name>
+  	<url-pattern>/mobile/MenuList.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>MenuDetail2</servlet-name>
+  	<servlet-class>com.jsp.controller.mobile.MenuDetailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MenuDetail2</servlet-name>
+  	<url-pattern>/mobile/MenuDetail.do</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+  	<servlet-name>logout</servlet-name>
+  	<servlet-class>com.jsp.controller.logoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>logout</servlet-name>
+  	<url-pattern>/logout.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>myPage</servlet-name>
+  	<servlet-class>com.jsp.controller.MypageController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>myPage</servlet-name>
+  	<url-pattern>/mypage.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>searchID</servlet-name>
+  	<servlet-class>com.jsp.controller.searchIDController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchID</servlet-name>
+  	<url-pattern>/searchID.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>menuList</servlet-name>
+  	<servlet-class>com.jsp.controller.MenuListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>menuList</servlet-name>
+  	<url-pattern>/menuList.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>menuDetail</servlet-name>
+  	<servlet-class>com.jsp.controller.MenuDetailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>menuDetail</servlet-name>
+  	<url-pattern>/menuDetail.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>menuCommentRead</servlet-name>
+		<servlet-class>com.jsp.controller.MenuCommentReadController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>menuCommentRead</servlet-name>
+		<url-pattern>/menuCommentRead.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>menuEdit</servlet-name>
+		<servlet-class>com.jsp.controller.MenuEditController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>menuEdit</servlet-name>
+		<url-pattern>/menuEdit.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>join</servlet-name>
+		<servlet-class>com.jsp.controller.JoinController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>join</servlet-name>
+		<url-pattern>/join.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>joinEdit</servlet-name>
+		<servlet-class>com.jsp.controller.JoinEditController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>joinEdit</servlet-name>
+		<url-pattern>/joinEdit.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>heart</servlet-name>
+		<servlet-class>com.jsp.controller.HeartController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>heart</servlet-name>
+		<url-pattern>/heartList.do</url-pattern>
+	</servlet-mapping>
+
+ <servlet>
+  	<servlet-name>myboard</servlet-name>
+  	<servlet-class>com.jsp.controller.MyboardController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>myboard</servlet-name>
+  	<url-pattern>/myboard.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>reviewList</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewList</servlet-name>
+  	<url-pattern>/reviewList.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>reviewDetail</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewDetailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewDetail</servlet-name>
+  	<url-pattern>/reviewDetail.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>reviewEdit</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewEditController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewEdit</servlet-name>
+  	<url-pattern>/reviewEdit.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>reviewUpload</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewEditController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewUpload</servlet-name>
+  	<url-pattern>/reviewUpload.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>reviewDelete</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewDeleteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewDelete</servlet-name>
+  	<url-pattern>/reviewDelete.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>reviewCommentDelete</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewCommentDeleteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewCommentDelete</servlet-name>
+  	<url-pattern>/reviewCommentDelete.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>reviewCommentRead</servlet-name>
+  	<servlet-class>com.jsp.controller.ReviewCommentReadController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reviewCommentRead</servlet-name>
+  	<url-pattern>/reviewCommentRead.do</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
